@@ -1,0 +1,113 @@
+/* ----- Flush out browser styling ------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, arial;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------------------ */
+/* ------- NavBar --------- */
+/* ------------------------ */
+
+.navbar-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.list {
+  margin-top: 3px;
+  display: flex;
+  list-style: none;
+  align-items: flex-start;
+  gap: 40px;
+  width: 60vw;
+  color: #8b8e8e;
+}
+
+.list :hover {
+  color: black;
+  font-weight: 500;
+  transition: 1s;
+}
+
+.list li {
+  cursor: pointer;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  background-color: #7e5dc1;
+  padding: 10px 25px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.button-group {
+  margin-right: 50px;
+  margin-top: 3px;
+}
+
+/* ------------------------ */
+/* ------- Banner --------- */
+/* ------------------------ */
+.banner-container {
+  display: flex;
+}
+
+.left-body {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  margin: 30px;
+  width: 50vw;
+  /* justify-content: space-around; */
+  gap: 50px;
+}
+
+.heading-text {
+  font-weight: 600;
+  font-size: 50px;
+  text-align: left;
+  margin-top: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+  color: #524768;
+}
+
+.heading-text span {
+  color: #7e5dc1;
+}
+
+.description {
+  color: #8b8e8e;
+  margin-right: 240px;
+  margin-left: 200px;
+}
+
+.btn {
+  margin-right: 280px;
+  margin-left: 200px;
+}
+.banner-image {
+  width: 50vw;
+}
+
+.banner-image img {
+  width: 100%;
+}
